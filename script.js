@@ -19,7 +19,7 @@ function imageMode(color) {
 
 
 function toggleDarkLightMode(theme) {
-    nav.style.backgroundColor = theme == 'light' ?'rgb(255 255 255 / 50%)' : 'rgb(0 0 0 / 50%)';
+    nav.style.backgroundColor = theme == 'light' ?'rgb(255 255 255 / 100%)' : 'rgb(0 0 0 / 100%)';
     textBox.style.backgroundColor = theme == 'light' ? 'rgb(0 0 0 / 50%)' : 'rgb(255 255 255 / 50%)';
     toggleIcon.children[0].textContent = theme == 'light' ? 'Light Mode' : 'Dark Mode';
     theme == 'light' ? toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun') : toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
