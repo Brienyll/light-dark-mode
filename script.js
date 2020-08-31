@@ -1,3 +1,4 @@
+//theme
 const DARK_THEME = 'dark';
 const LIGHT_THEME = 'light';
 
