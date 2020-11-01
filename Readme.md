@@ -1,1 +1,1 @@
-Light Dark Mode Project
+Light Dark Mode
